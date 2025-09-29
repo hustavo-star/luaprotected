@@ -1,0 +1,13 @@
+{
+  "name": "luaarmor-pastebin",
+  "version": "1.0.0",
+  "description": "Simple Pastebin-style server that saves pasted Lua to a random-named .lua file",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "body-parser": "^1.20.2"
+  }
+}
